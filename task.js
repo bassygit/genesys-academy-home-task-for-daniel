@@ -1,9 +1,9 @@
 // /TAKE HOME TEST
 // NO 1
-const user = { name: "Ada", skills: ["js", "node"] }
+const user = { name: "Ada", Skills: ["js", "node"] }
 const processUser = (user) => {
-            const { name, skills } = user
-            const newskills = [...skills, "react"]
+            const { name, Skills } = user
+            const newskills = [...Skills, "react"]
             return `${name} knows ${newskills.join()}`
 }
 console.log(processUser(user))
